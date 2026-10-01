@@ -58,19 +58,3 @@ mini-projetos/
 ```
 
 ---
-
-## Como Executar
-
-1. **Clone este repositório:**
-   ```bash
-   git clone https://github.com/starfingar/mini-projetos.git
-   ```
-
-2. **Navegue até a pasta do projeto desejado:**
-   ```bash
-   cd mini-projetos/01-todo-list
-   ```
-
-3. **Abra o arquivo `index.html`** no seu navegador de preferência (ou utilize extensões como o *Live Server*)
-
----
