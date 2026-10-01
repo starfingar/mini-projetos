@@ -12,12 +12,12 @@ Repositório dedicado à construção e organização de pequenos projetos de pr
 
 Os projetos estão organizados e numerados para acompanhar a evolução do aprendizado:
 
-| Nº | Projeto | Descrição & Conceitos Praticados | Link |
-| :---: | :--- | :--- | :---: |
-| **01** | **To-Do List** | Gerenciamento de tarefas, manipulação do DOM e persistência com `localStorage`. | [Acessar](./01-todo-list) |
-| **02** | **Jogo da Memória** | Lógica de jogo de cartas, manipulação, estado e embaralhamento de *arrays*. | [Acessar](./02-jogo-memoria) |
-| **03** | **Adivinhação** | Gerador de números aleatórios, tratamento de eventos e feedback em tempo real. | [Acessar](./03-adivinhacao) |
-| **04** | **Calculadora de Troco** | Operações matemáticas, estruturas condicionais e gerenciamento de objetos em JS. | [Acessar](./04-calculadora-troco) |
+| Nº | Projeto | Descrição & Conceitos Praticados | Status | Link |
+| :---: | :--- | :--- | :---: | :---: |
+| **01** | **To-Do List** | Gerenciamento de tarefas, manipulação do DOM e persistência com `localStorage`. | Não iniciado | [Acessar](./01-todo-list) |
+| **02** | **Jogo da Memória** | Lógica de jogo de cartas, manipulação, estado e embaralhamento de *arrays*. | Não iniciado | [Acessar](./02-jogo-memoria) |
+| **03** | **Adivinhação** | Gerador de números aleatórios, tratamento de eventos e feedback em tempo real. | Não iniciado | [Acessar](./03-adivinhacao) |
+| **04** | **Calculadora de Troco** | Operações matemáticas, estruturas condicionais e gerenciamento de objetos em JS. | Não iniciado | [Acessar](./04-calculadora-troco) |
 
 ---
 
@@ -55,6 +55,3 @@ mini-projetos/
     ├── index.html
     ├── style.css
     └── script.js
-```
-
----
