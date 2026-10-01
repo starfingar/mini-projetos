@@ -23,7 +23,7 @@ Os projetos estão organizados e numerados para acompanhar a evolução do apren
 
 ## Tecnologias Utilizadas
 
-- **HTML* *.
+- **HTML**.
 - **CSS**.
 - **JavaScript**.
 
