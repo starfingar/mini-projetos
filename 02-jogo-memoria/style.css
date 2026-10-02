@@ -37,17 +37,6 @@ main {
   aspect-ratio: 1 / 1;
 }
 
-.face-verso {
-  background-color: darkblue;
-  border-radius: 5px;
-}
-
-.face-frente {
-  background-color: wheat;
-  border-radius: 5px;
-  display: none;
-}
-
 .face-verso, .face-frente {
   position: absolute;
   top: 0;
@@ -58,8 +47,21 @@ main {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-size: 2rem;
 }
 
+.face-verso {
+  background-color: darkblue;
+  border-radius: 5px;
+  color: wheat;
+}
+
+.face-frente {
+  background-color: wheat;
+  border-radius: 5px;
+  color: darkblue;
+  display: none;
+}
 .carta.virada .face-frente {
   display: flex;
 }
