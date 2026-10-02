@@ -83,13 +83,15 @@ div.input-group button:hover {
 
 div.input-group input:focus,
 div.input-group button:focus,
-ul#todo-list .todo-item button {
+ul#todo-list .todo-item button,
+footer a {
   outline: none;
 }
 
 div.input-group button,
 div.input-group input,
-ul#todo-list .todo-item button {
+ul#todo-list .todo-item button,
+footer a {
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -138,4 +140,23 @@ ul#todo-list .todo-item .delete-btn:hover {
 ul#todo-list .todo-item.completed p {
   text-decoration: line-through;
   color: #9ca3af;
+}
+
+footer {
+  margin-top: auto; 
+  padding: 16px;
+  width: min(100%, 600px);
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+footer a {
+  color: #374151;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
