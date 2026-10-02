@@ -17,4 +17,9 @@ btnAdicionar.addEventListener('click', e => {
   ulTarefas.appendChild(liTarefa);
 
   input.value = '';
+
+  liTarefa.querySelector('.delete-btn').addEventListener('click', e => {
+    liTarefa.remove();
+  })
 });
+
