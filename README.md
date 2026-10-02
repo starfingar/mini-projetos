@@ -14,10 +14,10 @@ Os projetos estão organizados e numerados para acompanhar a evolução do apren
 
 | Nº | Projeto | Descrição & Conceitos Praticados | Status | Link |
 | :---: | :--- | :--- | :---: | :---: |
-| **01** | **To-Do List** | Gerenciamento de tarefas, manipulação do DOM e persistência com `localStorage`. | Em desenvolvimento | [Acessar](./01-todo-list) |
-| **02** | **Jogo da Memória** | Lógica de jogo de cartas, manipulação, estado e embaralhamento de *arrays*. | Não iniciado | [Acessar](./02-jogo-memoria) |
-| **03** | **Adivinhação** | Gerador de números aleatórios, tratamento de eventos e feedback em tempo real. | Não iniciado | [Acessar](./03-adivinhacao) |
-| **04** | **Calculadora de Troco** | Operações matemáticas, estruturas condicionais e gerenciamento de objetos em JS. | Não iniciado | [Acessar](./04-calculadora-troco) |
+| **01** | **To-Do List** | Gerenciamento de tarefas, manipulação do DOM e persistência com `localStorage`. | Concluído | [Acessar](https://starfingar.github.io/mini-projetos/01-todo-list) |
+| **02** | **Jogo da Memória** | Lógica de jogo de cartas, manipulação, estado e embaralhamento de *arrays*. | Não iniciado | Indisponível |
+| **03** | **Adivinhação** | Gerador de números aleatórios, tratamento de eventos e feedback em tempo real. | Não iniciado | Indisponível |
+| **04** | **Calculadora de Troco** | Operações matemáticas, estruturas condicionais e gerenciamento de objetos em JS. | Não iniciado | Indisponivel |
 
 ---
 
