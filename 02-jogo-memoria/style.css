@@ -29,7 +29,38 @@ main {
 }
 
 .carta {
+  position: relative;
   width: calc(25% - 16px);
   aspect-ratio: 1 / 1;
-  border: 1px solid red;
+}
+
+.face-verso {
+  background-color: darkblue;
+  border-radius: 5px;
+}
+
+.face-frente {
+  background-color: wheat;
+  border-radius: 5px;
+  display: none;
+}
+
+.face-verso, .face-frente {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carta.virada .face-frente {
+  display: flex;
+}
+
+.carta.virada .face-verso {
+  display: none;
 }
