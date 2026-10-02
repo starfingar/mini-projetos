@@ -15,7 +15,7 @@ Os projetos estão organizados e numerados para acompanhar a evolução do apren
 | Nº | Projeto | Descrição & Conceitos Praticados | Status | Link |
 | :---: | :--- | :--- | :---: | :---: |
 | **01** | **To-Do List** | Gerenciamento de tarefas, manipulação do DOM e persistência com `localStorage`. | Concluído | [Acessar](https://starfingar.github.io/mini-projetos/01-todo-list) |
-| **02** | **Jogo da Memória** | Lógica de jogo de cartas, manipulação, estado e embaralhamento de *arrays*. | Em desenvolvimento | Indisponível |
+| **02** | **Jogo da Memória** | Lógica de jogo de cartas, manipulação, estado e embaralhamento de *arrays*. | Concluído | [Acessar](https://starfingar.github.io/mini-projetos/02-jogo-memoria) |
 | **03** | **Adivinhação** | Gerador de números aleatórios, tratamento de eventos e feedback em tempo real. | Não iniciado | Indisponível |
 | **04** | **Calculadora de Troco** | Operações matemáticas, estruturas condicionais e gerenciamento de objetos em JS. | Não iniciado | Indisponivel |
 
