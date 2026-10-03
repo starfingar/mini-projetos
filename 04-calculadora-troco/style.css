@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 32px 16px;
+  background-color: ghostwhite;
+  font-family: 'Inter', sans-serif;
+}
+
+header {
+  margin-top: auto;
+  width: min(100%, 650px);
+  padding: 24px 16px;
+  border-radius: 20px;
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: min(100%, 650px);
+  padding: 24px 0;
+}
+
+section {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+section h2 {
+  font-size: 1.1rem;
+  color: dimgrey;
+  margin-bottom: 12px;
+}
+
+.campo-input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.campo-input label {
+  font-weight: 600;
+  color: #374151;
+}
+
+.campo-input input {
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.campo-input input:focus {
+  border-color: dimgrey;
+}
+
+.instrucao {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.grade-moedas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+}
+
+.cartao-moeda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  background-color: ghostwhite;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+}
+
+.label-moeda {
+  font-weight: bold;
+  color: #374151;
+}
+
+.contador {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: dimgrey;
+  margin: 8px 0;
+}
+
+.controles {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-controle {
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+  background-color: dimgrey;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.painel-valores p {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  font-size: 1rem;
+  color: #374151;
+}
+
+.painel-valores p strong {
+  color: dimgrey;
+}
+
+footer {
+  margin-top: auto;
+  width: min(100%, 600px);
+  padding: 16px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+footer a {
+  color: #374151;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
