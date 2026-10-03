@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100dvh;
+  padding: 32px 16px;
+  background-color: ghostwhite;
+  font-family: 'Inter', sans-serif;
+}
+
+ol {
+  list-style-type: none;
+}
+
+header {
+  margin-top: auto;
+  width: min(100%, 650px);
+  padding: 32px 16px;
+  border-radius: 20px;
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: min(100%, 650px);
+  padding: 16px;
+}
+
+main .input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: min(100%, 600px);
+  padding: 16px 24px;
+  border-radius: 20px;
+  background-color: dimgrey;
+}
+
+main .input-group input {
+  padding: 12px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 5px black;
+}
+
+main .input-group button,
+#reiniciar-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 0px 5px black;
+}
+
+#palpites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  width: min(100%, 600px);
+  padding: 16px 24px;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#palpites:has(*) {
+  background-color: dimgrey;
+}
+
+#resposta {
+  font-size: 1rem;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+#tentativas {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+footer {
+  margin-top: auto;
+  width: min(100%, 600px);
+  padding: 16px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+footer a {
+  color: #374151;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
