@@ -35,6 +35,7 @@ Os projetos estão organizados e numerados para acompanhar a evolução do apren
 mini-projetos/
 ├── .gitignore
 ├── README.md
+├── index.html
 │
 ├── 01-todo-list/
 │   ├── index.html
